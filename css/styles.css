@@ -15,9 +15,10 @@ body {
 h1 {
   margin-top: 0;
   font-family: 'Dancing Script', serif;
+  font-weight: lighter;
   font-size: 5.625rem;
   margin-bottom: 0;
-  color: maroon;
+  color: #FEFCD7;
 }
 
 h2 {
@@ -103,13 +104,11 @@ td {
   width: 300px;
 }
 
-.prog {
-  font-weight: normal;
-}
-
 .top-container {
-  background-color: #0C090A;/*#E4F9F5;*/
-  padding-top: 200px;
+  /*background-color: #0C090A;#E4F9F5;*/
+  background-image: url(https://i.pinimg.com/originals/96/bb/de/96bbdef0373c7e8e7899c01ae11aee91.jpg);
+  background-size: 100% 100%;
+  padding: 280px 0 250px;
   position: relative;
 }
 
@@ -141,4 +140,11 @@ td {
 
 .copyright {
   padding: 20px 0;
+}
+
+/****************************************************ID REFERENCES*******************************************************************/
+
+#prog {
+  color: #FEFCD7;
+  font-weight: normal;
 }
